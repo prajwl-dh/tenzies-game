@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0B2434;
+}
+
+.main {
+    margin: 30px 20px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    min-height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-heading {
+    margin: 0px;
+    color: #2B283A;
+    text-align: center;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.768px;
+    padding-top: 33px;
+}
+
+.main-description {
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    color: #4A4E74;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.393px;
+}
+
+.die-container {
+    margin: 0px;
+    padding: 33px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.die {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto; 
+    grid-column-gap: 17px;
+    grid-row-gap: 17px;
+}
+
+.die-button {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #2B283A;
+    text-align: center;
+    font-family: Karla;
+    font-size: 20.589px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 5px 5px 0px grey;
+}
+
+.die-button:focus {
+    border: none;
+    outline: none;
+}
+
+.die-button:hover {
+    cursor: pointer;
+}
+
+.roll {
+    margin-top: 40px;
+    background: #5035FF;
+    width: 110px;
+    height: 50px;
+    border-radius: 7px;
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16.384px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    outline: none;
+    border: none;
+}
+
+.roll:focus {
+    border: none;
+    outline: none;
+}
+
+.roll:hover {
+    cursor: pointer;
+}
+
+
